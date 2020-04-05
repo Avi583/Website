@@ -26,3 +26,4 @@ img{width:100% height:auto}
 	<p><a href="https://avi583.github.io/Website/quiz.html">Quizzes</a></p>
 	<p><a href="https://avi583.github.io/Website/podcast.html">Podcast</a></p>
 	<p><a href="https://avi583.github.io/Website/podcast.html">Photoshop</a></p>
+$ git commit --allow-empty -m "Empty commit"
