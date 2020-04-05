@@ -23,6 +23,6 @@ img{width:100% height:auto}
 </head>
  <h1 align="center" >Avinash Bakshi's Personal Website</h1>
 	
-	<p><a href="http://www.personal.psu.edu/axb5947/">Quizzes</a></p>
-	<p><a href="http://www.personal.psu.edu/axb5947/">Podcast</a></p>
-	<p><a href="http://www.personal.psu.edu/axb5947/">Photoshop</a></p>
+	<p><a href="https://avi583.github.io/Website/quiz.html">Quizzes</a></p>
+	<p><a href="https://avi583.github.io/Website/podcast.html">Podcast</a></p>
+	<p><a href="https://avi583.github.io/Website/podcast.html">Photoshop</a></p>
