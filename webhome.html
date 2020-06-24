@@ -3,8 +3,8 @@
 <meta name="viewport" content="width=device-width,user-scalable=yes">
 	<link href="http://fonts.googleapis.com/css?family=Buda:light" rel="stylesheet" type="text/css">
 <style type="text/css">
-html{margin:0 auto;max-width:33em}
-body{padding: 0 .5em 1em .5em}
+html{margin:0 auto;}
+body{padding: 0 .5em 1em .5em;background-image: url('woo.jpg');background-repeat: no-repeat;background-size: cover; background-attachment: fixed; text-align: center ; align}
 h1{font-size:120%;font-weight:700;text-transform:uppercase;
 letter-spacing:0.18em;padding:1em 0 0 0}
 h2{font-size:115%}
@@ -23,6 +23,29 @@ img{width:100% height:auto}
 </head>
  <h1 align="center" >Avinash Bakshi's Personal Website</h1>
 	
-	<p><a href="https://avi583.github.io/Website/quiz.html">Quizzes</a></p>
-	<p><a href="https://avi583.github.io/Website/podcast.html">Podcast</a></p>
-	<p><a href="https://avi583.github.io/Website/soccer.html">Soccer Analysis</a></p>
+<link href="styleweb.css" rel="stylesheet" type="text/css">
+	
+	
+<div id="navbar" align="center">
+	
+  <a href="https://avi583.github.io/Website.html">Home</a>
+  <a href="https://avi583.github.io/Website/quiz.html">Quizzes</a>
+  <a href="https://avi583.github.io/Website/podcast.html">Podcast</a>
+  <a href="https://avi583.github.io/Website/soccer.html">Soccer Analysis</a>
+  <script>
+	  window.onscroll = function() {myFunction()};
+
+	  	var navbar = document.getElementById("navbar");
+	  	var sticky = navbar.offsetTop;
+
+	  	function myFunction() {
+  		if (window.pageYOffset >= sticky) {
+				navbar.classList.add("sticky")
+  		} else {
+    navbar.classList.remove("sticky");
+  }
+}
+		</script>	
+</div>
+	
+	
