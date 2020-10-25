@@ -1,7 +1,13 @@
+
+
+
+
 /* Style the navbar */
 #navbar {
   overflow: hidden;
   background-color: #333;
+// your mobile css version
+@media (min-width: 700px)
 }
 
 /* Navbar links */
