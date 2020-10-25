@@ -19,6 +19,9 @@
   padding: 14px;
   padding-left: 64px;
   text-decoration: none;
+	// your mobile css version
+@media (min-width: 700px)
+	
 }
 
 /* Page content */
