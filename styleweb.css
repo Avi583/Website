@@ -108,3 +108,11 @@
 .spoiler2:hover { 
   background-color:white; 
   }
+
+
+/* Border Spacing */
+
+th, td {
+  padding: 15px;
+}
+
