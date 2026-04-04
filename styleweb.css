@@ -1,80 +1,3 @@
-/* Base site styles (moved from inline <style> blocks) */
-html { margin: 0 auto; }
-body {
-  padding: 0 .5em 1em .5em;
-  background-image: url('woo.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  text-align: center;
-}
-h1 {
-  font-size: 120%;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.18em;
-  padding: 1em 0 0 0;
-}
-h2 { font-size: 115%; }
-h3 { font-size: 110%; }
-h4 { font-size: 105%; }
-p {
-  font-size: 105%;
-  line-height: 1.5em;
-  word-spacing: .15em;
-}
-pre { font-size: 85%; line-height: 1.3em; }
-ol { font-size: 100%; line-height: 1.5em; padding: 0 0 0 1.75em; }
-ul { font-size: 100%; line-height: 1.5em; }
-.mono { max-width: 10em; }
-a:link { color: #900; text-decoration: none; }
-a:visited { color: #900; text-decoration: none; }
-img { width: 100%; height: auto; }
-
-/* Responsive YouTube iframes (Fix 16) */
-.video-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  max-width: 560px;
-  margin: 0 auto;
-}
-.video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-/* Click-to-reveal spoiler for all devices (Fix 10) */
-.spoiler, .spoiler2 {
-  color: black;
-  background-color: black;
-  cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
-}
-.spoiler.revealed {
-  color: white;
-  background-color: transparent;
-}
-.spoiler2.revealed {
-  background-color: white;
-}
-/* Keep hover for desktop as well */
-.spoiler:hover {
-  color: white;
-}
-.spoiler2:hover {
-  background-color: white;
-}
-
-
-
-
-
-
 /* Style the navbar */
 #navbar {
   overflow: hidden;
@@ -192,4 +115,30 @@ th, td {
 .center-table {
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Responsive YouTube iframes (Fix 16) */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 560px;
+  margin: 0 auto;
+}
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Click-to-reveal spoiler for all devices (Fix 10) */
+.spoiler.revealed {
+  color: white;
+  background-color: transparent;
+}
+.spoiler2.revealed {
+  background-color: white;
 }
